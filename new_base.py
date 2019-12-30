@@ -8,7 +8,7 @@ def str_base(val: int, b: int) -> str:
         if arg < 10:
             output += chr(arg + ord('0'))
         else:
-            output += (arg + ord('A') - 10)
+            output += chr(arg + ord('A') - 10)
         val //= b
     return ''.join(reversed(output)) #(т.к. новые знач мы кидали в конец строки, ну значит проитаем её справа на лево)
 
