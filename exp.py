@@ -1,4 +1,3 @@
-"""Задачка по ряду Тейлора"""
 import math
 
 ITERATIONS = 50
