@@ -11,7 +11,3 @@ def str_1(s):
 @dec
 def str_2(s):
     return 2*s
-
-s = input('Enter the text: ')
-print(str_1(s))  # Проверил декоратор на разных функциях
-print(str_2(s))
