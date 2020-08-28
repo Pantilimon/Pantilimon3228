@@ -10,7 +10,7 @@ def rec(b:int, n:int)->int:#бинарное возведение в степе�
        return rec(b*b, n/2)
     else:
         return b*rec(b, n-1)
-def ferma(n:int)->bool:
+def chek_ferma(n:int)->bool:
     for i in range(5):
         a=random.randint(1,1000)
         while eucl_greatestcommondivisor(a,n)>1 :
