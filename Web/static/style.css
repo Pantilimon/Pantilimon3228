@@ -1,0 +1,27 @@
+body {
+  background-color: #e2dcbe;
+  display: grid;
+  grid-template-areas:
+   "header"
+   "answer"
+   "solve";
+}
+
+#answer {
+  margin:0 auto;
+  padding: 25px;
+  color: #000000;
+  grid-area: answer;
+}
+
+
+.header {
+  margin:0 auto;
+  padding: 25px;
+  grid-area: header;
+}
+
+.solve {
+  margin: 0 auto;
+  grid-area: solve;
+}

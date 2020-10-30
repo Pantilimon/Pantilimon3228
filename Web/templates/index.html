@@ -1,0 +1,21 @@
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title>Метод Гаусса</title>
+    <link rel="stylesheet"  href= {{ url_for("static", filename="style.css") }}/>
+</head>
+    <body>
+        <div class="header">
+            Решение системы методом Гаусса
+        </div>
+        {% if result %}
+            <div id="answer">Ответ: {{result}}</div>
+        {% endif %}
+        <div class="solve">
+            <form action="" method=post enctype=multipart/form-data>
+                <input id="uploud" type=file name=file>
+                <input id="submit" type=submit value=Решить>
+            </form>
+        </div>
+    </body>
+</html>
